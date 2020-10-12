@@ -13,4 +13,4 @@ while :; do
 done
 
 echo "db is up"
-#docker-compose run --no-deps --rm exploit -b --current-db --current-user --users --dbs
+docker-compose run --no-deps --rm exploit -b --current-db --current-user --users --dbs
